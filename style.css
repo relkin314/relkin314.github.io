@@ -1,3 +1,37 @@
+html, body {
+	height: 100%;
+}
+
+
 body {
-	margin: 100px 100px 100px 100px
+	font-family: 'lato', sans-serif;
+	background-image: url(images/clouds-cold-dark-540518.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#paper {
+	width:80%;
+	position: relative;
+	top: 20%;
+	margin: auto;
+
+}
+
+h1 {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 10vw	;
+	font-variant: small-caps;
+	margin: auto;
+}
+
+.contactinfo {
+	text-align: center;
+	font-size: 2vw;
 }
