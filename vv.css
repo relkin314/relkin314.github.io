@@ -11,18 +11,18 @@ body {
 }
 
 .section-header {
-    color: darkslateblue;
+    color: slateblue;
     font-variant: small-caps;
 }
 
 .job-desc {
-    border-left: 2px solid #0563bb;
+    border-left: 2px solid slateblue;
 }
 
 hr {
     height: 3px; 
-    color: darkslateblue; 
-    background: darkslateblue;
+    color: slateblue; 
+    background: slateblue;
 }
 
 li.job-bullet {
@@ -36,7 +36,6 @@ li.client {
     margin-left: -10px;
     margin-bottom: 10px;
     text-decoration: underline;
-
 }
 
 li::marker {
