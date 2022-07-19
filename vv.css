@@ -1,0 +1,38 @@
+@media (min-width: 1140px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+.section-header {
+    color: darkslateblue;
+    font-variant: small-caps;
+}
+
+.job-desc {
+    border-left: 2px solid #0563bb;
+}
+
+hr {
+    height: 3px; 
+    color: darkslateblue; 
+    background: darkslateblue;
+}
+
+li.job-bullet {
+    list-style-type: '\2022';
+    padding-left: 10px; 
+    margin-bottom: 7px;
+}
+
+li.client {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+li::marker {
+    color: slateblue;
+}
