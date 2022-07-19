@@ -1,4 +1,7 @@
 
+:root {
+    --highlight-color: ;
+}
 
 @media (min-width: 1140px) {
     .container{
@@ -11,18 +14,23 @@ body {
 }
 
 .section-header {
-    color: slateblue;
+    color: var(--highlight-color);
     font-variant: small-caps;
 }
 
+#HeaderName {
+    color: var(--highlight-color);
+}
+
 .job-desc {
-    border-left: 2px solid slateblue;
+    border-left: 2px solid var(--highlight-color);
 }
 
 hr {
     height: 3px; 
-    color: slateblue; 
-    background: slateblue;
+    color: var(--highlight-color); 
+    background: var(--highlight-color);
+    opacity: 100;
 }
 
 li.job-bullet {
@@ -39,5 +47,5 @@ li.client {
 }
 
 li::marker {
-    color: slateblue;
+    color: var(--highlight-color);
 }
