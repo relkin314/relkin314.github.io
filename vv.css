@@ -1,6 +1,6 @@
 
 :root {
-    --highlight-color: ;
+    --highlight-color: steelblue;
 }
 
 @media (min-width: 1140px) {
@@ -27,7 +27,7 @@ body {
 }
 
 hr {
-    height: 3px; 
+    height: 2px; 
     color: var(--highlight-color); 
     background: var(--highlight-color);
     opacity: 100;
