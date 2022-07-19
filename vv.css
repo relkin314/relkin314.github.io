@@ -1,7 +1,13 @@
+
+
 @media (min-width: 1140px) {
     .container{
         max-width: 1140px;
     }
+}
+
+body {
+	font-family: 'Lato', sans-serif;
 }
 
 .section-header {
