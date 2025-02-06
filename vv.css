@@ -23,7 +23,7 @@ body {
 }
 
 .job-desc {
-    border-left: 2px solid var(--highlight-color);
+    border-left: 1px solid var(--highlight-color);
 }
 
 hr {
